@@ -1,0 +1,38 @@
+<!-- ---
+layout: page
+permalink: /contacts/
+title: Contacts
+weight: 3
+--- -->
+<div class="main">
+
+	<div class="content">
+		<form action="https://docs.google.com/forms/d/1fWxaz1u8dGTkT6ELPiCUzxyVwcxmxfKUCeUMuvSK2KY/formResponse" method="post">
+			<fieldset>
+				<fieldset>
+					<label for="entry.1548851053">Ваше имя:</label>
+					<input type="text" name="entry.1548851053"/>
+				</fieldset>
+				<fieldset>
+					<label for="entry.815774652">Ваш E-mail:</label>
+					<input type="email" name="entry.815774652"/>
+				</fieldset>
+				<fieldset>
+					<label for="entry.1340625394">Ваше сообщение:</label>
+					<textarea  name="entry.1340625394"></textarea>
+				</fieldset>
+				<fieldset>
+					<label for="btnOn">Ваше сообщение:</label>
+					<input type="submit" value="Отправить" onclick="return sendForm();"/>
+					<input type="reset" value="Очистить"/>
+				</fieldset>
+
+			</fieldset>
+		</form>	
+	</div>
+</div>
+<script>
+	function sendForm(){
+		return true;
+	}
+</script>
